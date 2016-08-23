@@ -2,6 +2,12 @@
 
 :zap: Minimal effort for http requests
 
+Most of the time small modules require only GET requests to function. Using full fledged packages like [request](https://www.npmjs.com/package/request) in small modules can take over space in your project unnecessarily.
+
+http-fetcher focuses only on fetching data (GET requests)
+
+Size comparison : request `>100KiB`, http-fetcher `<15KiB`
+
 > works only for fetching data [GET requests only]
 
 ## Install
