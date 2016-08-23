@@ -15,9 +15,10 @@ npm install --save http-fetcher
 ```js
 const httpFetcher = require('http-fetcher');
 
-get('api.github.com', '/users/gaearon/orgs', { 'User-Agent': 'github-organizations' }, 'https').then((res) => {
-	console.log(res);
-});
+httpFetcher('api.github.com', '/users/gaearon/orgs', { 'User-Agent': 'github-organizations' }, 'https')
+	.then((res) => {
+		console.log(res);
+	});
 ```
 
 ## API
