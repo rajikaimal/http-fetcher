@@ -1,4 +1,4 @@
-# http-fetcher [![Build Status](https://travis-ci.org/rajikaimal/http-fetcher.svg?branch=master)](https://travis-ci.org/rajikaimal/http-fetcher)
+# http-fetcher [![Build Status](https://travis-ci.org/rajikaimal/http-fetcher.svg?branch=master)](https://travis-ci.org/rajikaimal/http-fetcher) [![Greenkeeper badge](https://badges.greenkeeper.io/rajikaimal/http-fetcher.svg)](https://greenkeeper.io/)
 
 :zap: Minimal effort for http requests
 
